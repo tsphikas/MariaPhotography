@@ -1,0 +1,14 @@
+{
+  "name": "maria-photography",
+  "version": "1.0.0",
+  "description": "Maria Valentina Photographer Website",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass MariaPhotography/sass/main.scss MariaPhotography/css/style.css -w"
+  },
+  "author": "Theodoros Sphikas",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
