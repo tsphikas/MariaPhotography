@@ -1,0 +1,31 @@
+@font-face {
+  font-family: HermanzTitling;
+  src: url("../../fonts/HermanzTitlingRegular.otf");
+  src: url("../../fonts/HermanzTitlingRegular.ttf");
+}
+
+.section-title {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+.section-title h1 {
+  display: inline-block;
+  font-size: 40px;
+  color: $color-black;
+  font-weight: 700;
+  margin: 0;
+  position: relative;
+}
+
+.section-title h1:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 80px;
+  height: 3px;
+  background-color: orange;
+}

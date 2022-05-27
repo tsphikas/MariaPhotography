@@ -1,0 +1,85 @@
+.container {
+  max-width: 1170px;
+  margin: auto;
+  //background-color: blue;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 25px 0;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.header {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.header.fixed {
+  background-color: $color-white;
+  position: fixed;
+}
+
+.brand-name {
+  padding: 0 15px;
+}
+
+.brand-name a {
+  text-decoration: none;
+  font-size: 15px;
+  color: $color-white;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  transition: all 0.5s ease;
+}
+
+.header.fixed .brand-name a {
+  color: #000000;
+}
+
+.nav {
+  padding: 0 15px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: $color-white;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+
+  display: block;
+  transition: all 0.5s ease;
+  align-items: center;
+}
+
+.header.fixed .nav ul li a {
+  color: #000000;
+}
+
+a:hover,
+li:hover {
+  color: #ff9800;
+}

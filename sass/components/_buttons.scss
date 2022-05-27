@@ -1,0 +1,24 @@
+.btn-01 {
+  background-color: orange;
+  color: $color-white;
+  border: 2px solid transparent;
+  padding: 10px 35px;
+  border-radius: 30px;
+  line-height: 1.5;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.btn-01:hover {
+  background-color: transparent;
+  border-color: orange;
+  color: orange;
+}
+
+.btn-01:focus {
+  outline: none;
+}
